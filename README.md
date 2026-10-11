@@ -18,11 +18,11 @@ Most engineering time on infrastructure goes to repetitive diagnosis: why is thi
 
 | Project | Status | Description |
 |---|---|---|
-| [kubepilot](https://github.com/AryanSharma9917/kubepilot) | Active | AI Kubernetes and DevOps copilot with RAG, tool-calling, GitOps workflows and observability |
-| [SystemMonitoring](https://github.com/AryanSharma9917/SystemMonitoring) | Active | FastAPI + Prometheus + Grafana with AI-driven recommendations |
-| [Codewise-CLI](https://github.com/AryanSharma9917/Codewise-CLI) | Active | DevOps CLI utilities |
+| [kubepilot](https://github.com/Qloudex/kubepilot) | Active | AI Kubernetes and DevOps copilot with RAG, tool-calling, GitOps workflows and observability |
+| [SystemMonitoring](https://github.com/Qloudex/SystemMonitoring) | Active | FastAPI + Prometheus + Grafana with AI-driven recommendations |
+| [Codewise-CLI](https://github.com/Qloudex/Codewise-CLI) | Active | DevOps CLI utilities |
 
-Projects are moving into this organization; links will be updated.
+Projects are available in the Qloudex organization.
 
 ## Repository layout
 
@@ -52,3 +52,9 @@ Aryan Sharma and Rakshit Sharma, co-founders and builders.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Contact
+
+General: hello@qloudex.tech
+Website: https://qloudex.tech
+GitHub: https://github.com/Qloudex
