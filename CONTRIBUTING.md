@@ -1,40 +1,65 @@
 # Contributing to Qloudex
 
-Thanks for your interest. Qloudex is early-stage, so small, focused contributions are very welcome.
+Thanks for helping improve Qloudex. This repository is the project hub for
+shared documentation, the organization roadmap, and the project directory. It
+does not contain the application code for KubePilot, SystemMonitoring, Codewise
+CLI, or GO-CI-CD.
 
-## Ways to help
+## Choose the right repository
 
-- Report bugs or unclear documentation
-- Suggest features or new troubleshooting scenarios
-- Improve docs and examples
-- Fix issues labeled `good first issue`
+| Change | Repository |
+| --- | --- |
+| Studio overview, project directory, roadmap, or shared documentation | [Qloudex/qloudex](https://github.com/Qloudex/qloudex) |
+| KubePilot behavior or documentation | [Qloudex/kubepilot](https://github.com/Qloudex/kubepilot) |
+| SystemMonitoring behavior or documentation | [Qloudex/SystemMonitoring](https://github.com/Qloudex/SystemMonitoring) |
+| Codewise CLI behavior or documentation | [Qloudex/Codewise-CLI](https://github.com/Qloudex/Codewise-CLI) |
+| GO-CI-CD application or pipeline documentation | [Qloudex/GO-CI-CD](https://github.com/Qloudex/GO-CI-CD) |
+| Organization profile | [Qloudex/.github](https://github.com/Qloudex/.github) |
+| Website | [Qloudex/qloudex.github.io](https://github.com/Qloudex/qloudex.github.io) |
 
-## Reporting an issue
+Check the target repository's README and contribution guidance before making a
+change. Requirements and available checks differ between projects.
 
-1. Search existing issues first.
-2. Open a new issue with: what you expected, what happened, steps to reproduce, and your environment (OS, versions, cluster type if relevant).
-3. Remove secrets, tokens and private hostnames from logs before pasting.
+## Propose a change
 
-## Submitting a pull request
+1. Search the target repository's existing issues and pull requests.
+2. For a substantial change, open an issue describing the problem and proposed
+   scope before implementation.
+3. Do not include credentials, access tokens, private hostnames, customer data,
+   or other sensitive information.
 
-1. Fork the repository and create a branch: `git checkout -b fix/short-description`
-2. Make your change. Keep it focused on one thing.
-3. Test it locally and update docs if behavior changes.
-4. Commit with a clear message, for example `fix: handle empty pod logs`.
-5. Open a pull request describing what changed and why. Link the related issue.
+An existing issue or label is not required unless the target repository
+explicitly says otherwise.
 
-## Code style
+## Submit a pull request
 
-- Python: follow PEP 8; format with `black`; add type hints where practical
-- Go: run `gofmt` and `go vet`
-- Shell: use `shellcheck`
-- Infrastructure code: format with `terraform fmt` and keep manifests valid YAML
-- Write clear names and short comments for non-obvious logic
+1. Fork or clone the correct repository.
+2. Create a focused branch from its default branch.
+3. Make the smallest change that addresses the documented problem.
+4. Run the checks documented by that repository. For documentation-only work,
+   review Markdown rendering, links, spelling, and code examples.
+5. Open a pull request explaining what changed, why it changed, how it was
+   verified, and any remaining limitations.
 
-## Security
+Do not include unrelated formatting or refactoring in the same pull request.
 
-Do not commit credentials. If you find a security problem, contact the maintainers privately instead of opening a public issue.
+## Documentation standards
+
+- Describe implemented behavior, not intended behavior.
+- Label experimental and planned work clearly.
+- Do not invent customers, outcomes, benchmarks, certifications, or production
+  claims.
+- Use repository-relative links for files in the same repository.
+- Preserve historical attribution and existing license terms.
+- Remove secrets and identifying infrastructure details from examples and logs.
+
+## Security-sensitive reports
+
+Do not open a public issue containing exploitable details or credentials. Follow
+the target repository's `SECURITY.md` when one exists. If it does not provide a
+private reporting channel, contact a maintainer to request one before sharing
+details.
 
 ## Conduct
 
-Be respectful and constructive. Assume good intent and keep feedback about the work.
+Be respectful, specific, and constructive. Keep feedback focused on the work.

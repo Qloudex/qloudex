@@ -1,60 +1,111 @@
 # Qloudex
 
-Agentic AI for software, data and cloud automation.
+## AI & Cloud Engineering Studio
 
-Qloudex helps companies and developers automate software development, data platforms and cloud infrastructure tasks using agentic AI, data engineering, RAG pipelines and DevOps tools. We are an early-stage, open-source initiative by two developers.
+**AI engineering and cloud automation, built for real work.**
 
-## Why agentic AI + DevOps
+Qloudex is an early-stage engineering studio helping startups and growing teams
+build useful AI workflows, reliable cloud infrastructure, and software
+integrations—from prototype to practical delivery.
 
-Most engineering time on infrastructure goes to repetitive diagnosis: why is this pod restarting, why did this pipeline fail, what changed. An agent that can read the error, form a hypothesis, run the right diagnostic commands and explain the result saves real time. We combine that with solid DevOps practice (containers, Kubernetes, IaC, CI/CD, monitoring) so the tools are deployable, not just demos.
+[Website](https://qloudex.tech/) ·
+[GitHub organization](https://github.com/Qloudex) ·
+[Discuss a project](https://qloudex.tech/#contact)
 
-## What we are building
+## What we do
 
-- AI agents for Kubernetes, Docker and CI/CD troubleshooting
-- Tooling that connects agents to real infrastructure workflows (GitOps, observability)
-- Reference implementations: agent, container, Kubernetes, Terraform, CI/CD and monitoring
+### AI Engineering
 
-## Current projects
+RAG knowledge assistants, task agents, AI workflow integration, evaluation, and
+guardrails for focused business workflows.
 
-| Project | Status | Description |
-|---|---|---|
-| [kubepilot](https://github.com/Qloudex/kubepilot) | Active | AI Kubernetes and DevOps copilot with RAG, tool-calling, GitOps workflows and observability |
-| [SystemMonitoring](https://github.com/Qloudex/SystemMonitoring) | Active | FastAPI + Prometheus + Grafana with AI-driven recommendations |
-| [Codewise-CLI](https://github.com/Qloudex/Codewise-CLI) | Active | DevOps CLI utilities |
+### Cloud & DevOps
 
-Projects are available in the Qloudex organization.
+CI/CD, containerization, AWS and Azure infrastructure, Kubernetes and
+OpenShift, Terraform, monitoring, and infrastructure reviews.
 
-## Repository layout
+### Software & Integrations
 
-```
-docs/       Documentation and architecture notes
-projects/   Index of Qloudex projects
-examples/   Usage examples and sample configs
-```
+APIs, backend services, internal dashboards, workflow automation, and
+third-party integrations.
+
+## Ways to work with us
+
+| Offering | Starting point |
+| --- | --- |
+| **AI Workflow Prototype** | Discovery, a focused proof of concept, and an integration plan. |
+| **Cloud & DevOps Review** | A scoped read-only review, prioritized recommendations, and an implementation proposal. |
+| **Build & Automate** | Custom backend, AI, or DevOps delivery with agreed scope and milestones. |
+
+These are service formats, not fixed packages or guarantees. Scope,
+responsibilities, and milestones depend on the problem and operating
+environment.
+
+## Engineering projects
+
+Qloudex maintains public engineering projects that make our technical interests
+and working style inspectable. They are not client case studies, and experimental
+capabilities are not presented as production outcomes.
+
+| Project | Maturity | Purpose |
+| --- | --- | --- |
+| [KubePilot](https://github.com/Qloudex/kubepilot) | Active experiment | Kubernetes operations assistant with runbook retrieval, workload inspection, common-failure diagnosis, and incident reporting. |
+| [SystemMonitoring](https://github.com/Qloudex/SystemMonitoring) | Reference project | Containerized FastAPI monitoring stack with Prometheus metrics and provisioned Grafana dashboards. |
+| [Codewise CLI](https://github.com/Qloudex/Codewise-CLI) | Beta | Go CLI for Docker, Kubernetes, Helm, deployment, environment, configuration, and file-conversion workflows. |
+| [GO-CI-CD](https://github.com/Qloudex/GO-CI-CD) | Learning reference | Go application with example OpenShift, Tekton, Buildah, and Argo CD delivery manifests. |
+
+See the [project directory](projects/README.md) for verified technologies,
+limitations, and licensing status.
+
+## How we work
+
+**Discover → Scope → Build → Validate → Handover / Iterate**
+
+We favor clear boundaries, reviewable milestones, documented decisions, and
+human-reviewed delivery. Public engineering work remains separate from private
+client work.
+
+## Repository purpose
+
+This repository is the central reference for Qloudex:
+
+- `docs/` — studio roadmap and shared documentation
+- `projects/` — verified directory of Qloudex engineering projects
+- `examples/` — reserved for reviewed cross-project examples
+
+Application code belongs in the individual project repositories. The GitHub
+organization profile is maintained separately in
+[`Qloudex/.github`](https://github.com/Qloudex/.github).
 
 ## Roadmap
 
-- [ ] Move core projects into the organization
-- [ ] Documentation for each project: problem, how it works, how to run it, examples, architecture
-- [ ] Dockerfile, Kubernetes manifests and Helm chart for the flagship agent
-- [ ] CI/CD pipeline and Terraform example
-- [ ] Monitoring and logging for deployed agents
-- [ ] Technical articles and demos
+The [Qloudex roadmap](docs/ROADMAP.md) separates current priorities, likely next
+steps, and longer-term product possibilities. Future SaaS ideas are plans, not
+currently available commercial products.
 
 ## Contributing
 
-We welcome issues and pull requests. Read [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change. Documentation
+for this hub belongs here; code and project-specific issues belong in the
+relevant project repository.
 
-## Team
+## Founders
 
-Aryan Sharma and Rakshit Sharma, co-founders and builders.
+Qloudex was co-founded by
+[Aryan Sharma](https://github.com/AryanSharma9917) and
+[Rakshit Sharma](https://github.com/rakshitsharma0402).
 
-## License
+## License and attribution
 
-MIT. See [LICENSE](LICENSE).
+This project-hub repository is licensed under the [MIT License](LICENSE),
+copyright © 2026 Qloudex.
+
+Linked engineering projects retain their own Git history, attribution, and
+license status. The MIT license in this repository does not automatically apply
+to them.
 
 ## Contact
 
-General: hello@qloudex.tech
-Website: https://qloudex.tech
-GitHub: https://github.com/Qloudex
+Use the website's [Discuss a project](https://qloudex.tech/#contact) link to
+prepare an email to `hello@qloudex.tech`. The website does not claim successful
+delivery; verify the configured inbox separately.
